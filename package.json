@@ -1,0 +1,44 @@
+{
+  "name": "YoNgabsen-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "reinstall": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadashariabdillah24/testbackend.git"
+  },
+  "author": "Muhammad Ashari Abdillah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadashariabdillah24/testbackend/issues"
+  },
+  "homepage": "https://github.com/muhammadashariabdillah24/testbackend#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/jwt": "^2.1.1",
+    "@hapi/vision": "^6.1.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "fcm-node": "^1.6.1",
+    "firebase-admin": "^11.5.0",
+    "hapi-auth-bearer-token": "^8.0.0",
+    "hapi-cron": "^1.1.0",
+    "hapi-swagger": "^14.2.5",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.2.9",
+    "nanoid": "^3.3.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
